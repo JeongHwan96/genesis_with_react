@@ -1,0 +1,67 @@
+body { background: #000; }
+
+ul { background: #000; color: white; }
+
+.Header { background: black; }
+
+.Header header { padding: 20px 0 20px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #1e1e1e; }
+
+.Header header li { margin-left: 55px; cursor: pointer; -webkit-transition: color .5s; transition: color .5s; }
+
+.Header header li:hover { color: #fff; -webkit-transition: color .5s; transition: color .5s; }
+
+.Header header div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.Header header .headText, .Header header .rightContent { font-size: 1rem; color: #bbb; }
+
+.Header header .headText { width: 50%; right: 9rem; position: relative; }
+
+.Header header .leftContent { width: 25%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.Header header .leftContent img { width: 30%; cursor: pointer; }
+
+.Header header .rightContent { width: 25%; }
+
+.section1_wrap .left_border, .section1_wrap .left_border2 { border: 2px solid white; width: 15%; position: absolute; background: #fff; }
+
+.section1_wrap .left_border { top: 45%; -webkit-transform: translateY(-45%); transform: translateY(-45%); }
+
+.section1_wrap .left_border2 { top: 55%; -webkit-transform: translateY(-45%); transform: translateY(-45%); }
+
+.section1_wrap img { width: 115%; -o-object-fit: cover; object-fit: cover; -o-object-position: -13rem; object-position: -13rem; }
+
+.section1_wrap .detail_price { width: 20%; position: absolute; top: 74%; left: 14%; }
+
+.section1_wrap .detail_price a { margin-left: 55px; cursor: pointer; }
+
+.section2_wrap { width: 50%; margin: 5% auto; }
+
+.section2_wrap .our_models { font-size: 3rem; line-height: 4rem; }
+
+.section2_wrap .our_models_desc { font-size: 1.2rem; color: #ccc; line-height: 5rem; }
+
+.section2_wrap #demo-simple-select { border: none; }
+
+.car_img_wrap .swiper { width: 70%; margin: 0px 24%; }
+
+.car_img_wrap img { width: 100%; }
+
+.car_img_wrap .car_border:hover { background-color: rgba(255, 255, 255, 0.03); }
+
+.car_img_wrap .car_border:hover .detail { margin-top: 1%; }
+
+.car_img_wrap .car_border { border: 1px solid #050505; background: #050505; margin: 0 0 0 5%; -webkit-transition: all .5s; transition: all .5s; }
+
+.car_img_wrap .car_border .g70 { margin: 10%; }
+
+.car_img_wrap .car_border .g70 ._title { font-size: 2rem; }
+
+.car_img_wrap .car_border .g70 ._sub { font-size: 1rem; }
+
+.car_img_wrap .car_border .detail { border: 1px solid #ffffff; text-align: center; margin: 10%; padding: 4%; cursor: pointer; position: relative; z-index: 1; -webkit-transition: all 0.4s; transition: all 0.4s; }
+
+.car_img_wrap .car_border .detail:after { content: ""; width: 0%; height: 100%; top: 0; position: absolute; left: 0; -webkit-transition: all 0.4s; transition: all 0.4s; background: #ffffff; }
+
+.car_img_wrap .car_border .detail:hover { color: #050505; margin-top: 1%; }
+
+.car_img_wrap .car_border .detail:hover:after { width: 100%; z-index: -1; }
